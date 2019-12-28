@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Traumpa Home</title>
+
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+
+	<!--<link rel="stylesheet" href="js/main.js">-->
+	<script src="js/jquery-3.3.1.min.js"> </script>
+	<script src="slick/slick.min.js"> </script>
+
+</head>
+
+<body>
+
+	<!-- Header (Start) -->
+	<div class="header">
+		<div class="header_wrap">
+			<div class="header_background_overlay">
+
+				<!-- Header-logo-menu (Start) -->
+				<div class="header_logo_menu">
+					<div class="header_logo">
+						<img src="Image/logo.png" alt="">
+					</div>
+
+					<div class="header_menu">
+						<ul>
+							<li> <a href="#"> HOME </a></li>
+							<li> <a href="#"> ABOUT </a></li>
+							<li> <a href="#"> BLOG </a></li>
+							<li> <a href="#"> EDUCATION </a></li>
+							<li> <a href="#"> FORUM </a></li>
+							<li> <a href="#"> EVENT </a></li>
+							<li> <a href="#"> LOGIN </a></li>
+							<!-- Search-Icon (Start) -->
+							<li class="open-button" onclick="openForm()"> <img src="Image/search_icon.png" alt=""> </li>
+
+							<div class="form-popup" id="myForm">
+								<form action="/action_page.php" class="form-container">
+									<button type="button" class="cancel" onclick="closeForm()">×</button>
+
+									<input type="text" placeholder="Type Search Keyword Here" name="email" required>
+
+									<button type="submit" class="btn">Search</button>
+								</form>
+							</div>
+
+							<script>
+								function openForm() {
+									document.getElementById("myForm").style.display = "block";
+								}
+
+								function closeForm() {
+									document.getElementById("myForm").style.display = "none";
+								}
+
+							</script>
+							<!-- Search Icon (END) -->
+						</ul>
+					</div>
+				</div>
+				<!-- Header-logo-menu (END) -->
+
+
+				<!-- Header-Blog (START) -->
+				<div class="header_blog">
+
+					<h3>SEPTEMBER 17, 2017</h3>
+					<h1>TAS Meeting @ ASA Boston 2017</h1>
+					<button class="header_blog_button">
+						READ MORE
+					</button>
+				</div>
+				<!-- Header-Blog (END) -->
+			</div>
+
+
+			<!-- Header-After (START)-->
+			<div class="after_header_full">
+				<div class="after_header-wrap">
+
+					<!-- Membership,Events,Leadership (START) -->
+					<div class="after_header">
+						<div class="after_header_wrap">
+
+					<!-- Membership (START) -->
+									
+							<div class="after_header_groups">
+								<img src="Image/member.png" alt="">
+								<h4>MEMBERSHIP</h4>
+							</div>
+						
+							<div class="after_header_groups">
+								<img src="Image/member.png" alt="">
+								<h4>MEMBERSHIP</h4>
+							</div>
+							
+							<!-- Membership (END) -->
+
+							<!-- Events (START) -->
+							<div class="after_header_groups">
+								<img src="Image/events.png" alt="">
+								<h4>EVENTS</h4>
+							</div>
+							<!-- Events (END) -->
+
+							<!-- Leadership (START) -->
+							<div class="after_header_groups">
+								<img src="Image/leadership.png" alt="">
+								<h4>LEADERSHIP</h4>
+							</div>
+							<!-- Leadership (END) -->
+
+						</div>
+					</div>
+					<!-- Membership,Events,Leadership (END) -->
+				</div>
+			</div>
+			<!-- Header - After (END)-->
+
+		</div>
+	</div>
+
+	<!-- Header (END) -->
+
+
+
+	<!-- Services_Block - What We Do (START) -->
+	<div class="services_block">
+		<div class="services_block-wrap">
+
+			<!-- What We Do (START) -->
+			<div class="title">
+				<h2>What We Do</h2>
+				<p>Trauma Anesthesiology Society seeks to advance the art and science of trauma <br>anesthesiologyand all related fields through education and research.</p>
+			</div>
+			<!-- What We Do (END) -->
+
+
+			<!-- Education, Clinical, Research (START)-->
+			<div class="services">
+				<div class="services_wrap">
+
+					<!-- Education (START) -->
+					<div class="services_name">
+						<div class="hover_out">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-graduation-cap"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Education</h4>
+								<p>Through high quality educational tools and <br>opportunities we enhance the care patients<br>receive</p>
+							</div>
+						</div>
+
+						<div class="hover_in">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-graduation-cap"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Edu</h4>
+								<p>Through high quality educational tools and <br>opportunities we enhance the care patients<br>receive</p>
+							</div>
+						</div>
+					</div>
+					<!-- Education (END) -->
+
+					<!-- Clinical (START) -->
+					<div class="services_name">
+						<div class="hover_out">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-stethoscope"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Clinical Excellence</h4>
+								<p>We strive to bring high quality trauma care <br> to all patients</p>
+							</div>
+						</div>
+
+						<div class="hover_in">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-stethoscope"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Clinic</h4>
+								<p>We strive to bring high quality trauma care <br> to all patients</p>
+							</div>
+						</div>
+					</div>
+					<!-- Clinical (END) -->
+
+					<!-- Research (START) -->
+					<div class="services_name">
+						<div class="hover_out">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-lightbulb"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Resaerch</h4>
+								<p>We advocate for a scientific research <br>agenda that provides meaningful practice <br>improvment</p>
+							</div>
+						</div>
+
+						<div class="hover_in">
+							<div class="services_icon">
+								<div class="icon"><i class="fas fa-lightbulb"></i></div>
+							</div>
+
+							<div class="services_des">
+								<h4>Resaerch</h4>
+								<p>We advocate for a scientific research <br>agenda that provides meaningful practice <br>improvment</p>
+							</div>
+						</div>
+					</div>
+					<!-- Research (START) -->
+
+				</div>
+			</div>
+			<!-- Education, Clinical, Research (END)-->
+
+		</div>
+	</div>
+	<!-- Services_Block - What We Do (END) -->
+
+
+	<!-- About US - Events, Books (START) -->
+	<div class="about_us">
+		<div class="about_us-wrap">
+
+			<div class="events_books">
+				<!-- Our Events (START) -->
+				<div class="our_events">
+					<div class="events_books_header">
+						<h2>Our Events</h2>
+						<p>Trauma to this day remains one of the leading causes of premature mortality and <br>disability around the globe, representing a substantial burden on our society.</p>
+					</div>
+
+					<!-- Our Events Image (START) -->
+					<div class="our_events_img">
+						<div class="our_events_img1">
+							<img src="Image/events-1.png" alt="">
+						</div>
+						<div class="our_events_img2">
+							<img src="Image/events-2.png" alt="">
+						</div>
+					</div>
+					<!-- Our Events Image (END) -->
+
+					<!-- Our Events Description (START) -->
+					<div class="our_events_des">
+						<div class="our_events_des_b">
+							<p style="font-size: 14px; float: left">22 FEB, 2017 </p>
+							<p style="font-size: 14px; float: right; padding: 0 35px">HEALTH SEMINAR</p>
+
+							<h4>2 Day Workshop Product Registration <br>and Navigating the Approval Process </h4>
+							<p style="font-size: 13px">Hilton Garden Inn Boston Logan Airport, Boston</p>
+						</div>
+
+						<div class="our_events_des_b" style="padding: 0 8px">
+							<p style="font-size: 14px; float: left">22 FEB, 2017 </p>
+							<p style="font-size: 14px; float: right; padding: 0 35px">HEALTH SEMINAR</p>
+
+							<h4>2 Day Workshop Product Registration <br>and Navigating the Approval Process </h4>
+							<p style="font-size: 13px">Hilton Garden Inn Boston Logan Airport, Boston</p>
+						</div>
+					</div>
+					<!-- Our Events Description (END) -->
+				</div>
+				<!-- Our Events (END) -->
+
+				<!-- Our Books (START) -->
+				<div class="our_books">
+					<div class="events_books_header">
+						<h2>Our Books</h2>
+						<p>This fully revised new edition focuses on a broad <br>spectrum of traumatic injuries.</p>
+					</div>
+
+					<!-- Our Events Description - Block-1  (START) -->
+					<div class="our_books_details">
+						<div class="our_books_img">
+							<img src="Image/books1.png" alt="">
+						</div>
+						<div class="our_books_des">
+							<h4>Essentials of Trauma Ansthesia</h4>
+							<p>Edited by experts in the field of anesthesia (both TAS <br>board members), it is a great review on trauma <br>anesthesia for all levels of providers.</p>
+							<h1>Purchase on Amazon</h1>
+						</div>
+					</div>
+					<!-- Our Events Description - Block-1  (START) -->
+					<!-- Our Events Description - Block-2  (START) -->
+					<div class="our_books_details">
+						<div class="our_books_img">
+							<img src="Image/books1.png" alt="">
+						</div>
+						<div class="our_books_des">
+							<h4>Trauma Anesthesia, 2nd Edition</h4>
+							<p>This fully revised new edition with six new chapters is a<br> comprehensive review of trauma anesthesia that is <br>recommended for all providers in the field.</p>
+							<h1>Purchase on Amazon.</h1>
+						</div>
+					</div>
+					<!-- Our Events Description - Block-2  (END) -->
+				</div>
+				<!-- Our Books (END) -->
+			</div>
+		</div>
+	</div>
+	<!-- About US - Events, Books (END) -->
+
+
+	<!-- Our Partners (START) -->
+	<div class="our_partners">
+		<div class="our_partners_wrap">
+
+			<!-- Our Partner - Heading (START) -->
+			<div class="title">
+				<h2>Our partners</h2>
+				<p>We are proud to be associated with</p>
+			</div>
+			<!-- Our Partner - Heading (START) -->
+
+			<!-- Our Partners - Slider (START) -->
+			<div class="our_partners_slider" id="mySlider">
+				<div class="slider_img">
+					<img src="Image/partners_logo1.png" alt="">
+				</div>
+				<div class="slider_img">
+					<img src="Image/partners_logo2.png" alt="">
+				</div>
+				<div class="slider_img">
+					<img src="Image/partners_logo3.png" alt="">
+				</div>
+				<div class="slider_img">
+					<img src="Image/partners_logo4.png" alt="">
+				</div>
+				<div class="slider_img">
+					<img src="Image/partners_logo5.png" alt="">
+				</div>
+			</div>
+			<!-- Our Partners - Slider (END) -->
+			<script>
+				$(document).ready(function() {
+					$('.our_partners_slider').slick({
+						infinite: true,
+						slidesToShow: 5,
+						slidesToScroll: 1,
+
+					})
+				});
+
+			</script>
+
+		</div>
+	</div>
+	<!-- Our partners (END) -->
+
+
+	<!-- Get In Touch (START) -->
+	<div class="get_in_touch">
+		<div class="get_in_touch_wrap">
+			<!-- Get In Touch Details (START) -->
+			<div class="get_in_touch_details">
+
+				<!-- Get In Touch Now (START) -->
+				<div class="get_in_touch_now">
+					<h1>Get In Touch Now</h1>
+					<p>Contact TAS to improve your education and training on anesthesia</p>
+				</div>
+				<!-- Get In Touch - Button (START) -->
+				<div class="get_in_touch_button">
+					<button class="touch_btn">CONTACT US</button>
+				</div>
+				<!-- Get In Touch - Button (END) -->
+			</div>
+			<!-- Get In Touch Details (END) -->
+
+		</div>
+	</div>
+	<!-- Get In Touch (END) -->
+
+
+
+
+
+
+	<!-- Footer (START) -->
+	<footer class="page-footer font-small indigo">
+		<div class="container text-center text-md-left">
+
+			<!-- Grid row -->
+			<div class="row">
+
+				<!-- Grid column -->
+				<!-- About US (START) -->
+				<div class="col-md-3 mx-auto">
+					<h4 class="font-weight-bold text-uppercase mt-3 mb-4">About Us</h4>
+
+					<p style="color: rgba(111, 130, 145, 255);letter-spacing: 0.5px;">Trauma Anesthesiology Society <br>seeks to advance the art and <br>science of trauma anesthesiology<br>
+						and all related fields through <br>education and research.</p>
+					<!-- Icons -->
+					<ul class="list-unstyled">
+						<li>
+							<a href="facebook.com"><i class="fab fa-facebook-f" style="color: #b1c0c4"></i></a>
+						</li>
+						<li>
+							<a href="twitter.com"><i class="fab fa-twitter" style="color: #b1c0c4"></i></a>
+						</li>
+						<li>
+							<a href="instagram.com"><i class="fab fa-instagram" style="color: #b1c0c4"></i></a>
+						</li>
+					</ul>
+
+				</div>
+				<!-- About US (END) -->
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+
+				<!-- Grid column -->
+				<!-- Latest Post (START) -->
+				<div class="col-md-3 mx-auto">
+					<h4 class="font-weight-bold text-uppercase mt-3 mb-4">Latest Post</h4>
+					<!-- About Us - Details -->
+					<h5>Time to Vote–BOD Nominations</h5>
+					<h6>September 13, 2017</h6>
+
+					<h5>Sux is King! </h5>
+					<h6>September 20, 2017</h6>
+
+					<h5>Is Ketamine superior to Etomidate?</h5>
+					<h6>November 20, 2017</h6>
+				</div>
+				<!-- Latest Post (END) -->
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none">
+
+
+				<!-- Twitter Post (START) -->
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
+					<h4 class="font-weight-bold text-uppercase mt-3 mb-4">Twitter Posts</h4>
+					<!-- twitter Post _ Details -->
+					<h5> <i class="fas fa-angle-double-right" style=" font-size: 14px"></i> https://studiopress.blog/sites29/</h5>
+
+					<h6 style="color: #4ac3e7;padding: 0 23px 9px 20px">@StudioPress</h6>
+
+
+					<h5> <i class="fas fa-angle-double-right" style=" font-size: 14px"></i> Good music is better than coffee</h5>
+					<h5 style="padding: 0 20px">bit.ly/2o3XQ81</h5>
+					<h6 style="color: #4ac3e7;padding: 0 23px 9px 20px">@RafalTomal</h6>
+				</div>
+				<!-- Grid column -->
+				<!-- Twitter Post (END) -->
+				<hr class="clearfix w-100 d-md-none">
+
+
+				<!-- Tags (START) -->
+				<!-- Grid column -->
+				<div class="col-md-3 mx-auto">
+					<h4 class="font-weight-bold text-uppercase mt-3 mb-4">Tags</h4>
+					<!-- Twitter Post - Details -->
+					<ul class="list-unstyled">
+						<!-- Tags - Block1 -->
+						<li>
+							<h6>Abdominal</h6>
+						</li>
+						<li>
+							<h6>Administration</h6>
+						</li>
+						<li>
+							<h6>ED</h6>
+						</li>
+
+						<!-- Tags - Block2 -->
+						<li>
+							<h6>Airway</h6>
+						</li>
+						<li>
+							<h6>Algorithm</h6>
+						</li>
+						<li>
+							<h6>Anesthesia</h6>
+						</li>
+
+						<!-- Tags - Block3 -->
+						<li>
+							<h6>Aorta</h6>
+						</li>
+						<li>
+							<h6>Bleeding</h6>
+						</li>
+						<li>
+							<h6>Breathing </h6>
+						</li>
+
+						<!-- Tags - Block4 -->
+						<li>
+							<h6>Education</h6>
+						</li>
+						<li>
+							<h6>Emergency</h6>
+						</li>
+						<li>
+							<h6>Trauma </h6>
+						</li>
+					</ul>
+				</div>
+				<!-- Tags (START) -->
+				<!-- Grid column -->
+
+			</div>
+			<!-- Grid row -->
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">
+				<h5 style="border-top: 1px solid #e6ebec; padding: 27px 0;">TAS © 2016 | All rights reserved</h5>
+			</div>
+			<!-- Copyright -->
+		</div>
+
+	</footer>
+	<!-- Footer (END) -->
+
+
+	<script src="js/jquery-3.3.1.min.js"> </script>
+	<script src="js/bootstrap.min.js"> </script>
+	<script src="slick/slick.min.js"></script>
+
+</body>
+
+</html>

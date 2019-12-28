@@ -1,0 +1,54 @@
+ul {
+    list-style: none;
+}
+
+h1,
+h3 {
+    font-family: MerriweatherSans-Regular, MyriadPro-Regular;
+    color: #ffffff;
+}
+
+h2 {
+    color: #333333;
+    font-family: MerriweatherSans-Bold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 40px;
+    font-weight: 600;
+}
+h4{
+    font-family: MerriweatherSans-Regular,AdobeInvisFont,MyriadPro-Regular;
+    color: rgba(68, 68, 68, 255);
+}
+p {
+    font-family: OpenSans, AdobeInvisFont,MyriadPro-Regular;
+    font-size: 15px;
+    color: rgba(111, 130, 145, 255);
+
+}
+fab{
+	font-size: 15px;	
+	
+}
+
+
+h5{
+	font-family: MerriweatherSans-Book, AdobeInvisFont,MyriadPro-Regular;
+	font-size: 14px;
+	color: rgba(68, 68, 68, 255);
+	letter-spacing: 0.5px;
+}
+
+h6{
+	font-family: MerriweatherSans-Book, AdobeInvisFont,MyriadPro-Regular;
+	font-size: 13px;
+	color: rgba(111, 130, 145, 255);
+	padding-bottom: 9px;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
