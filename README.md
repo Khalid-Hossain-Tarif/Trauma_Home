@@ -1,5 +1,7 @@
 # Trauma_Home
 PSD To HTML Design. 
 
-## Functionalities:
-- Modal Popup
+## Specifications:
+- Modal Popup on Search Bar
+- Slider (Using "Slick Slider" Plugin)
+- 
